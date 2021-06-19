@@ -1,0 +1,16 @@
+
+//Subir o servidor
+ng serve
+
+// Criar componente via ng
+ng generate component MySecond
+ou
+ng g c MySecond
+
+// Criar componente dentro de componente (aninhados) - tile dentro de list, por exemplo.
+ng g c my-second/MyThird
+
+
+
+
+
