@@ -1,5 +1,8 @@
 
-//Subir o servidor
+// Criar projeto
+ng new myapp
+
+// Subir o servidor
 ng serve
 
 // Criar componente via ng
@@ -10,6 +13,13 @@ ng g c MySecond
 // Criar componente dentro de componente (aninhados) - tile dentro de list, por exemplo.
 ng g c my-second/MyThird
 
+
+-------------------------
+OUTRO PROJETO
+
+https://material.angular.io/
+
+$ 
 
 
 
