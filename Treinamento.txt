@@ -25,8 +25,11 @@ $ ng add @angular/material
 // Ícones com nomes
 https://fonts.google.com/icons
 
+// Gravar no package.json o pacote que vc tá instalando
+// Assim vc sobe o projeto pro Git e outro dev fica com os mesmos pacotes que foram usados no projeto
+$ npm install --save << nome do pacote >>
+$ npm install --save faker   // Exemplo
 
-
-
-
+// Depois que rodar o comando abaixo, será recriada a pasta node_modules na pasta do projeto
+$ npm i // dentro da pasta do projeto  //  Ele pegará o que está no package.json e vai instalar
 
