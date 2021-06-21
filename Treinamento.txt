@@ -19,7 +19,10 @@ OUTRO PROJETO
 
 https://material.angular.io/
 
-$ 
+// Adicionando o Angula Material
+$ ng add @angular/material
+
+
 
 
 
