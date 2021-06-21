@@ -22,6 +22,9 @@ https://material.angular.io/
 // Adicionando o Angula Material
 $ ng add @angular/material
 
+// Ícones com nomes
+https://fonts.google.com/icons
+
 
 
 
