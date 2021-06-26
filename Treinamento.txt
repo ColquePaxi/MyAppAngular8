@@ -42,3 +42,7 @@ Procedimento para guardar no mesmo github privado chamado https://github.com/Col
   Exemplo: C:\Temp\angular
   $ ng new data-binding-app
 - Copia todos os arquivos (exceto o .git) para a pasta C:\Projetos\angular78\myapp
+
+Adiciona o Angula Material
+$ ng add @angular/material
+
