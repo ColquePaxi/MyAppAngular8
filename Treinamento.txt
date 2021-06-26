@@ -33,3 +33,12 @@ $ npm install --save faker   // Exemplo
 // Depois que rodar o comando abaixo, será recriada a pasta node_modules na pasta do projeto
 $ npm i // dentro da pasta do projeto  //  Ele pegará o que está no package.json e vai instalar
 
+-------------------------------
+DATA BINDING - Seção 3 - 
+
+Procedimento para guardar no mesmo github privado chamado https://github.com/ColquePaxi/MyAppAngular8:
+- Apaga tudo (EXCETO os arquivos .git e Treinamento.TXT) que tem na pasta: C:\Projetos\angular78\myapp
+- Cria o projeto da seção que será estudada - EM UMA PASTA QUALQUER FORA DO PROJETO PADRÃO:
+  Exemplo: C:\Temp\angular
+  $ ng new data-binding-app
+- Copia todos os arquivos (exceto o .git) para a pasta C:\Projetos\angular78\myapp
