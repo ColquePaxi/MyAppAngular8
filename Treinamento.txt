@@ -36,6 +36,8 @@ $ npm i // dentro da pasta do projeto  //  Ele pegará o que está no package.js
 -------------------------------
 DATA BINDING - Seção 3 - 
 
+14. Interpolação de String (como pegar dados do type script e mostrar no html)
+
 Procedimento para guardar no mesmo github privado chamado https://github.com/ColquePaxi/MyAppAngular8:
 - Apaga tudo (EXCETO os arquivos .git e Treinamento.TXT) que tem na pasta: C:\Projetos\angular78\myapp
 - Cria o projeto da seção que será estudada - EM UMA PASTA QUALQUER FORA DO PROJETO PADRÃO:
@@ -54,8 +56,24 @@ para implementar os dados de cards pegando de objetos locais que criamos:
 
 No src/app.module.ts tem que adicionar MatCardModule (veja descrito em API)
 import { MatCardModule } from '@angular/material/card';
+
 No src/app.module.ts tem que adicionar MatButtonModule (veja descrito em API)
 import { MatButtonModule } from '@angular/material/button';
+
+No src/app.module.ts tem que adicionar MatInputModule (veja descrito em API)
+import { MatInputModule } from '@angular/material/button';
+
+
+-------------------------------
+PROPERTY BINDING - Seção 3 - 
+
+15. Criar uma propriedade (atributo de um componente associado a uma variável que esteja declarada dentro de nossa class) no TS para interagir com o HTML. Portanto, muito usado para fins dinâmicos.
+
+
+
+
+
+
 
 
 

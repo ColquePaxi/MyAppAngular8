@@ -1,0 +1,20 @@
+<p>property-binding works!</p>
+
+<!-- A propriedade color aqui está associada a um valor, mas o valor é estático -->
+<button mat-button color="primary">My First Button</button>
+
+<!-- A propriedade [color] aqui está associada a um valor, mas o valor agora é dinâmico 
+     porque estará associada a uma propriedade no property-binding.component.ts.
+     Obs.: apesar de "color" parecer uma string, em verdade ele se refere a uma variável
+     - propiedade - declarada no property-binding.component.ts
+-->
+<button mat-button [color]="color">My First Button</button>
+
+<p>
+   <button mat-button disable="true">My Second Button</button>
+   <button mat-button [disabled]="btnDisabled">My Second Button</button>
+ </p>
+
+ <p>
+   <button mat-button [color]="colors[idx]">My Third Button</button>
+ </p>
