@@ -46,3 +46,17 @@ Procedimento para guardar no mesmo github privado chamado https://github.com/Col
 Adiciona o Angula Material
 $ ng add @angular/material
 
+Criar um componenete chamando StringInterpolation (use CamalCase para criar o arquivo como string-interpolation)
+$ ng g c StringInterpolation
+
+Vamos em https://material.angular.io/components/card/examples
+para implementar os dados de cards pegando de objetos locais que criamos:
+
+No src/app.module.ts tem que adicionar MatCardModule (veja descrito em API)
+import { MatCardModule } from '@angular/material/card';
+No src/app.module.ts tem que adicionar MatButtonModule (veja descrito em API)
+import { MatButtonModule } from '@angular/material/button';
+
+
+
+
