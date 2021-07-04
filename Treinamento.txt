@@ -69,10 +69,20 @@ PROPERTY BINDING - Seção 3 -
 
 15. Criar uma propriedade (atributo de um componente associado a uma variável que esteja declarada dentro de nossa class) no TS para interagir com o HTML. Portanto, muito usado para fins dinâmicos.
 
+-------------------------------
+EVENT BINDING - Seção 3 - 
 
+16. Interação entrew TS e HTML via evento. Usamos botaões e cliques.
 
+-------------------------------
+EVENT BINDING COM PARÂMETROS - Seção 3 - 
 
+usando o evento (change) da API do checkbox
 
+17. Event binding com parâmetros
+
+Basicamente pegar a API dos componentes, ver quais os eventos de output eles emitem, criar as variáveis que receberão esses outputs, passar essas variáveis como parâmetros para as funções/métodos.
+ 
 
 
 
