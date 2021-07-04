@@ -13,6 +13,7 @@ export class EventBindingComponent implements OnInit {
   btnEnable = true;
   selectDisabled = false;
   selectedOption = '1';
+  inputName = "Colque ";
 
   constructor() { }
 

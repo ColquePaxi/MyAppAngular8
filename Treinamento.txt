@@ -82,7 +82,20 @@ usando o evento (change) da API do checkbox
 17. Event binding com parâmetros
 
 Basicamente pegar a API dos componentes, ver quais os eventos de output eles emitem, criar as variáveis que receberão esses outputs, passar essas variáveis como parâmetros para as funções/métodos.
- 
+
+
+-------------------------------
+EVENT BINDING - Seção 3 - 
+
+18. Event binding com property binding
+
+Na parte 1 fazemos atualização via função.
+Na parte 2 fazemos atualização via criação da variável inputName (atrelada ao .ts)em event-bind.component.html diretamente nos atributos nativos do componente.
+
+
+
+
+
 
 
 
