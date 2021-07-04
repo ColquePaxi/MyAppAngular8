@@ -17,26 +17,43 @@
     </mat-progress-spinner>
 </section>
 
-<mat-card>
+<section>
+   <mat-card>
+      <mat-card-content>
+         <p>
+            <mat-checkbox color="warn" (change)="cbChange($event)" >Enable / Disable</mat-checkbox>
+         </p>
+      
+         <mat-form-field appearance="fill">
+            <mat-label>Cars</mat-label>
+            <mat-select matNativeControl required [disabled]="selectDisabled" (selectionChange)="selectionChange($event)"> 
+            <mat-option value="1">Volvo</mat-option>
+            <mat-option value="2">Saab</mat-option>
+            <mat-option value="3">Mercedes</mat-option>
+            <mat-option value="4">Audi</mat-option>
+            </mat-select>
+         </mat-form-field>
+      </mat-card-content>
+      <mat-card-actions>
+         <p>
+            Selected option {{ selectedOption  }}
+         </p>
+      </mat-card-actions>
+   </mat-card>
+</section>
 
-   <mat-card-content>
-      <p>
-         <mat-checkbox color="warn" (change)="cbChange($event)" >Enable / Disable</mat-checkbox>
-      </p>
-   
-      <mat-form-field appearance="fill">
-         <mat-label>Cars</mat-label>
-         <mat-select matNativeControl required [disabled]="selectDisabled" (selectionChange)="selectionChange($event)"> 
-         <mat-option value="1">Volvo</mat-option>
-         <mat-option value="2">Saab</mat-option>
-         <mat-option value="3">Mercedes</mat-option>
-         <mat-option value="4">Audi</mat-option>
-         </mat-select>
-      </mat-form-field>
-   </mat-card-content>
-   <mat-card-actions>
-      <p>
-         Selected option {{ selectedOption  }}
-      </p>
-   </mat-card-actions>
-</mat-card>
+<mat-divider></mat-divider>
+
+<section>
+   <mat-card>
+      <mat-card-content>
+         <mat-form-field appearance="fill">
+            <!-- vamos capturar o valor de input (componente nativo) logo abaixo  -->
+            <input matInput placeholder="First name" (input)="inputEvent($event)">
+         </mat-form-field>
+      </mat-card-content>
+      <mat-card-actions>
+
+      </mat-card-actions>
+   </mat-card>
+</section>
