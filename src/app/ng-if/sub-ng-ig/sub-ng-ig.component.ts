@@ -8,10 +8,14 @@ import { Component, OnInit } from '@angular/core';
 export class SubNgIgComponent implements OnInit {
 
   constructor() {
-     console.log('app-sub-ng-ig');
+     console.log('app-sub-ng-ig - constructor()');
    }
 
   ngOnInit() {
+  }
+
+  ngOnDestroy() {
+     console.log('app-sub-ng-ig - ngOnDestroy()');
   }
 
 }

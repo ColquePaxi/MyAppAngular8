@@ -169,6 +169,8 @@ DIRETIVAS - Seção 4
       }-->
    </section>
 
+25. ngIf aplicado em subcompenente
 
+   Para provar que o subcomponente é criado em tempo de execução, implementamos uma saída console.log dentro do constructor do subcomponente e criamos um método ngOnDestroy para mostrar que o elemento está sendo destruído tb em tempo de execução.
 
 
