@@ -121,8 +121,12 @@ A variável inputName (de event-binding.component.ts) recebe o valor de $event.t
 
    Ao invés de atualizar variável, atualizaremos um objeto
    Não consegui fazer exibir o objeto inteiro ao invés de exibir por objeto.atributo!
-   
 
+
+-------------------------------
+DIRETIVAS - Seção 4 
+
+23. ngstyle
 
 
 
