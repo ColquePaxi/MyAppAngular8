@@ -90,9 +90,31 @@ EVENT BINDING - Seção 3 -
 18. Event binding com property binding
 
 Na parte 1 fazemos atualização via função.
-Na parte 2 fazemos atualização via criação da variável inputName (atrelada ao .ts)em event-bind.component.html diretamente nos atributos nativos do componente.
+Na parte 2 fazemos atualização via criação da variável inputName (atrelada ao .ts)em event-bind.component.html diretamente nos atributos nativos do componente. Essa estrutura abaixo é o two way data binding.
+em event-binding.component.html:
+   <input matInput placeholder="First name" 
+      (input) = "inputName = $event.target.value"
+      [value] = "inputName"
+   >
+A variável inputName (de event-binding.component.ts) recebe o valor de $event.target.value (veja no inspector - faça um método para verificar como é alterado esse valor, caso tenha dúvida), e depois pega o conteúdo atualizado de inputName e preenche no value do objeto visual <input>. Mas ainda não é o modelo ideal de two way data binding.
 
 
+
+19. Two Way Data Binding - parte 1
+   Two way data bindig está diretamente ligado à formulários. Ex:
+      import {FormsModule} from '@angular/forms';
+      import {MatFormFieldModule} from '@angular/material/form-field';
+
+   Conceito
+   [()] - Banana in a box 
+
+   Estrurura básica = é imprescindível o name do ngModel !!!!:
+   <mat-form-field appearance="fill" style="width: 100%;">
+      <!-- Conceito Banana in a box - two way data binding  -->
+      <input matInput placeholder="Last name"
+         [(ngModel)]="lastName" name="lastName"
+      >
+   </mat-form-field>
 
 
 
