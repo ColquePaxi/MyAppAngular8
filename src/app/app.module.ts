@@ -7,15 +7,19 @@ import { NgStyleComponent } from './ng-style/ng-style.component';
 import { FormsModule } from '@angular/forms';
 import { MatCardModule,
          MatSelectModule, 
-         MatRadioModule 
+         MatRadioModule,
+         MatCheckboxModule,
+         MatInputModule 
       } from '@angular/material';
 import { NgClassComponent } from './ng-class/ng-class.component';
+import { NgIfComponent } from './ng-if/ng-if.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NgStyleComponent,
-    NgClassComponent
+    NgClassComponent,
+    NgIfComponent
   ],
   imports: [
     BrowserModule,
@@ -23,7 +27,9 @@ import { NgClassComponent } from './ng-class/ng-class.component';
     FormsModule,
     MatCardModule,
     MatRadioModule,
-    MatSelectModule
+    MatSelectModule,
+    MatCheckboxModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]

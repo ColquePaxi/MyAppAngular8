@@ -154,8 +154,20 @@ DIRETIVAS - Seção 4
    </mat-card-footer>
 
 
+24. ngif - condicional
 
-
+   Botão direito no Checkbox do Browser - Inspecionar - Elements
+   Esses elementos do DOM vão mudando conforme o ngIf for atuando (vai clicando nos checkbox e veja que vai criando dinamicamente):
+   <section _ngcontent-txg-c1=""><!--bindings={
+        "ng-reflect-ng-if": "false"
+      }--><!--bindings={
+        "ng-reflect-ng-if": "false"
+      }--><!--bindings={
+        "ng-reflect-ng-if": "false"
+      }--><!--bindings={
+        "ng-reflect-ng-if": "false"
+      }-->
+   </section>
 
 
 
