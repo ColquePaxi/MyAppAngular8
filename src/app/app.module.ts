@@ -13,13 +13,15 @@ import { MatCardModule,
       } from '@angular/material';
 import { NgClassComponent } from './ng-class/ng-class.component';
 import { NgIfComponent } from './ng-if/ng-if.component';
+import { SubNgIgComponent } from './ng-if/sub-ng-ig/sub-ng-ig.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NgStyleComponent,
     NgClassComponent,
-    NgIfComponent
+    NgIfComponent,
+    SubNgIgComponent
   ],
   imports: [
     BrowserModule,
