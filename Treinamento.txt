@@ -128,6 +128,11 @@ DIRETIVAS - Seção 4
 
 23. ngstyle
 
+   Usando css para definir uns estilos para alguns grupos de elementos visuais
+   link entre css, html, ts 
+   aplicando o resultado num <p></p> usando ngStyle e referenciando as variáveis do .ts e linkadas no html
+   
+
 
 
 
