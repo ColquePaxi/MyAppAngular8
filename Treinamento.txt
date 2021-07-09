@@ -117,6 +117,12 @@ A variável inputName (de event-binding.component.ts) recebe o valor de $event.t
    </mat-form-field>
 
 
+19. Two Way Data Binding - parte 2 - Link com OBJETO
+
+   Ao invés de atualizar variável, atualizaremos um objeto
+   Não consegui fazer exibir o objeto inteiro ao invés de exibir por objeto.atributo!
+   
+
 
 
 
