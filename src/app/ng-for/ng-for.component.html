@@ -27,3 +27,38 @@
    </p>
 </section>
 
+<mat-divider></mat-divider>
+
+<section>
+   <p>
+      <mat-card>
+         <mat-card-content>
+            <mat-list>
+               <h3 matSubHeader>Names</h3>
+               <mat-list-item *ngFor="let name of names">
+                  <!-- https://fonts.google.com/icons  -->
+                  <!-- Fica na mesma linha mas a variável name não fica em destaque (mais escura) 
+                  <mat-icon >person</mat-icon> {{name}}
+                  -->
+                  <!-- Assim ícone e variável name ficam destacados -->
+                  <mat-icon matListIcon>person</mat-icon>
+                  <h4 matLine>{{name}}</h4>
+               </mat-list-item>
+               <mat-divider></mat-divider>
+               <h3 matSubHeader>Cities</h3>
+               <mat-list-item *ngFor="let city of cities">
+                  <!-- Assim ícone e variável name ficam destacados -->
+                  <mat-icon matListIcon>location_city</mat-icon>
+                  <!-- Em uma únic alinha 
+                  <h4 matLine>{{city.name}} - {{city.state}}</h4>
+                  -->
+                  <h4 matLine>{{city.name}}</h4>
+                  <h4 matLine>{{city.state}}</h4>
+               </mat-list-item>
+            </mat-list>
+         </mat-card-content>
+      </mat-card>
+   </p>
+</section>
+
+
