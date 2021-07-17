@@ -174,3 +174,6 @@ DIRETIVAS - Seção 4
    Para provar que o subcomponente é criado em tempo de execução, implementamos uma saída console.log dentro do constructor do subcomponente e criamos um método ngOnDestroy para mostrar que o elemento está sendo destruído tb em tempo de execução.
 
 
+26. ngFor - criar componentes por via de Loop
+
+
