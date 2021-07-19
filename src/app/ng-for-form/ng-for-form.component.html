@@ -1,0 +1,37 @@
+<mat-card class="card">
+   <mat-card-content>
+      <section>
+         <mat-form-field class="form-field">
+            <input matInput placeholder="First name" name="name" [(ngModel)]="var_name">
+            <mat-icon matSuffix>person</mat-icon>
+         </mat-form-field>
+         <mat-form-field class="form-field">
+            <input matInput placeholder="Address" name="address" [(ngModel)]="var_address">
+            <mat-icon matSuffix>home</mat-icon>
+         </mat-form-field>
+         <mat-form-field class="form-field">
+            <input matInput placeholder="Phone" name="phone" [(ngModel)]="var_phone">
+            <mat-icon matSuffix>phone</mat-icon>
+         </mat-form-field>
+         <!-- 
+            Esse elemento estará VINCULADO a outro elemento do tipo lista selecionável,
+            através da variável var_city que é a que está implementada no objeto 
+         -->
+         <mat-form-field class="form-field">
+            <mat-select placeholder="City" name="city" [(ngModel)]="var_city">
+               <!-- o [value] vai receber e poder intercambiar o valor escolhido -->
+               <mat-option *ngFor="let city of var_cities" [value]="city.name">
+                  {{city.name}} - {{city.state}}
+               </mat-option>
+            </mat-select>
+         </mat-form-field>
+         <mat-form-field class="form-field">
+            <input matInput placeholder="Age" name="age" [(ngModel)]="var_age">
+         </mat-form-field>
+      </section>
+   </mat-card-content>
+   <mat-card-actions>
+      <button mat-raised-button color="primary" (click)="save()">Save</button>
+      <button mat-raised-button color="warn" (click)="cancel()">Cancel</button>
+   </mat-card-actions>
+</mat-card>

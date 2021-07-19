@@ -12,12 +12,15 @@ import { MatCardModule,
          MatInputModule, 
          MatListModule,
          MatDividerModule,
-         MatIconModule
+         MatIconModule,
+         MatButtonModule,
+         MatFormFieldModule
       } from '@angular/material';
 import { NgClassComponent } from './ng-class/ng-class.component';
 import { NgIfComponent } from './ng-if/ng-if.component';
 import { SubNgIgComponent } from './ng-if/sub-ng-ig/sub-ng-ig.component';
 import { NgForComponent } from './ng-for/ng-for.component';
+import { NgForFormComponent } from './ng-for-form/ng-for-form.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,8 @@ import { NgForComponent } from './ng-for/ng-for.component';
     NgClassComponent,
     NgIfComponent,
     SubNgIgComponent,
-    NgForComponent
+    NgForComponent,
+    NgForFormComponent
   ],
   imports: [
     BrowserModule,
@@ -39,7 +43,9 @@ import { NgForComponent } from './ng-for/ng-for.component';
     MatInputModule,
     MatListModule,
     MatDividerModule,
-    MatIconModule
+    MatIconModule,
+    MatButtonModule,
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]

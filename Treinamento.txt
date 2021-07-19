@@ -176,4 +176,5 @@ DIRETIVAS - SeÃ§Ã£o 4
 
 26. ngFor - criar componentes por via de Loop
 
-
+   Parte 3: Faz o vínculo de um campo de formulário com um elemento de lista selecionável
+    
