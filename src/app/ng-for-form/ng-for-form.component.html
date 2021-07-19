@@ -44,7 +44,7 @@
       <mat-card class="card">
          <mat-card-content>
             <mat-list>
-               <h3 matSubHeader *ngIf="clients.lenght > 0">Names</h3>
+               <h3 matSubHeader *ngIf="clients.length > 0">Customers</h3>
                <mat-list-item *ngFor="let client of clients; let i=index">
                   <mat-icon matListIcon>person</mat-icon>
                   <h4 matLine>{{i}}</h4>
