@@ -35,3 +35,34 @@
       <button mat-raised-button color="warn" (click)="cancel()">Cancel</button>
    </mat-card-actions>
 </mat-card>
+
+<mat-divider></mat-divider>
+
+
+<section>
+   <p>
+      <mat-card class="card">
+         <mat-card-content>
+            <mat-list>
+               <h3 matSubHeader *ngIf="clients.lenght > 0">Names</h3>
+               <mat-list-item *ngFor="let client of clients; let i=index">
+                  <mat-icon matListIcon>person</mat-icon>
+                  <h4 matLine>{{i}}</h4>
+                  <h4 matLine>{{name}}</h4>
+                  <h4 matLine>{{client.name}}</h4>
+                  <h4 matLine>{{client.address}}</h4>
+                  <h4 matLine>{{client.phone}}</h4>
+                  <h4 matLine>{{client.city}}</h4>
+                  <h4 matLine>{{client.age}}</h4>
+                  <button mat-icon-button color="accent" aria-label="Delete button" (click)="delete(i)">
+                     <mat-icon>delete</mat-icon>
+                   </button>
+               </mat-list-item>
+            </mat-list>
+         </mat-card-content>
+      </mat-card>
+   </p>
+</section>
+
+
+

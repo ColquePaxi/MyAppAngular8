@@ -48,4 +48,10 @@ export class NgForFormComponent implements OnInit {
     this.var_city = "";
     this.var_age = 0;
   }
+
+  delete(i: number) {
+     // Passa o id do parâmetro e a quantidade de registros que quer aplicar a ação
+     this.clients.splice(i,1); 
+  }
+
 }
